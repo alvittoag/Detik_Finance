@@ -1,18 +1,46 @@
+// ** Import React
+import { useState } from "react";
+
 // ** Import Constants
 import { postItems } from "../constants";
 
 const LatestUpdate = () => {
+  const [hoveredItem, setHoveredItem] = useState(null);
+
+  const handleMouseEnter = (index) => setHoveredItem(index);
+
+  const handleMouseLeave = () => setHoveredItem(null);
+
   return (
     <main id="latest-update" className="py-10 px-36 space-y-8">
       <h1 className="text-primary font-[700]  text-[32px]">LATEST UPDATE </h1>
 
-      <article className="grid grid-cols-3  gap-y-7">
+      <article className="grid grid-cols-3 gap-7">
         {postItems.map((item, index) => (
-          <div key={index} className="space-y-4">
-            <img src={item.image} alt="post1 w-full" />
+          <div
+            key={index}
+            onMouseEnter={() => handleMouseEnter(index)}
+            onMouseLeave={handleMouseLeave}
+            className="space-y-4  "
+          >
+            <div className="overflow-hidden rounded-lg">
+              <img
+                src={item.image}
+                alt={item.title}
+                className={`w-full ${
+                  index === hoveredItem && "rounded-3xl duration-300 scale-110"
+                } `}
+              />
+            </div>
 
             <div className="space-y-2">
-              <h1 className="text-secondary font-[700] text-[14px] max-w-[350px]">
+              <h1
+                className={`${
+                  index === hoveredItem
+                    ? "duration-100 text-primary"
+                    : "text-secondary"
+                } font-[700] text-[14px] max-w-[350px]`}
+              >
                 {item.title}
               </h1>
 
