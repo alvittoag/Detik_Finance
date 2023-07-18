@@ -6,6 +6,7 @@ import logo2 from "./logo/logo2.svg";
 import backgroundLarge from "./background/background-lg.svg";
 import backgroundMechanism from "./background/background-mechanism.svg";
 import about from "./background/about.svg";
+import backgroundRegister from "./background/background-register.svg";
 
 // ** Import Icon
 import twitter from "./icon/twitter.svg";
@@ -18,6 +19,7 @@ import pengumuman from "./icon/pengumuman.svg";
 import twitterOutline from "./icon/twitter-outline.svg";
 import instagramOutline from "./icon/instagram-outline.svg";
 import facebookOutline from "./icon/facebook-outline.svg";
+import plus from "./icon/plus.svg";
 
 // ** Import Brand
 import fiveHundred from "./brand/500.svg";
@@ -67,4 +69,6 @@ export default {
   twitterOutline,
   facebookOutline,
   instagramOutline,
+  backgroundRegister,
+  plus,
 };

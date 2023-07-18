@@ -12,13 +12,14 @@ import { Link } from "react-router-dom";
 
 const Brand = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
+    pauseOnHover: false,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 0,
     cssEase: "linear",
   };
   return (
