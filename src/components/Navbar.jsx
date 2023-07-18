@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex bg-primary text-white py-4 justify-between items-center px-20">
+    <nav className="flex bg-primary text-white py-4 justify-between items-center px-20 fixed w-full top-0 z-50">
       <Link to="/">
         <img src={assets.logo} alt="logo" />
       </Link>
