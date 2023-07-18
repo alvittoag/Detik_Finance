@@ -9,10 +9,10 @@ const LatestUpdate = () => {
       <article className="grid grid-cols-3  gap-y-7">
         {postItems.map((item, index) => (
           <div key={index} className="space-y-4">
-            <img src={item.image} alt="post1" />
+            <img src={item.image} alt="post1 w-full" />
 
             <div className="space-y-2">
-              <h1 className="text-secondary font-[700] text-[14px] max-w-sm">
+              <h1 className="text-secondary font-[700] text-[14px] max-w-[350px]">
                 {item.title}
               </h1>
 
