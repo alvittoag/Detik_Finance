@@ -1,6 +1,9 @@
 // ** Import Assets
 import assets from "../assets/assets";
 
+// ** Import Elements
+import Button from "../elements/Button";
+
 const Hero = () => {
   return (
     <div className="relative">
@@ -24,9 +27,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <button className="py-3 px-5 bg-[#3EB7DD] font-semibold rounded-md">
-            Daftarkan startup kamu
-          </button>
+          <Button> Daftarkan startup kamu</Button>
         </div>
       </div>
     </div>

@@ -6,6 +6,10 @@
   @apply bg-[#007CBD];
 }
 
+.bg-secondary {
+  @apply bg-[#F4FBFF];
+}
+
 .text-primary {
   @apply text-[#007CBD];
 }

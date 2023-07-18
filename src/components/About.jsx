@@ -3,7 +3,10 @@ import assets from "../assets/assets";
 
 const About = () => {
   return (
-    <div id="about" className="py-20 px-40 flex items-center gap-10">
+    <div
+      id="about"
+      className="py-28 px-40 flex items-center gap-10 bg-secondary"
+    >
       <div className="relative">
         <img src={assets.about} alt="about" />
 
