@@ -1,4 +1,6 @@
-import logo from "./logo.svg";
+// ** Import Logo
+import logo from "./logo/logo.svg";
+import logo2 from "./logo/logo2.svg";
 
 // ** Import Background
 import backgroundLarge from "./background/background-lg.svg";
@@ -13,6 +15,9 @@ import play from "./icon/play.svg";
 import registrasi from "./icon/registrasi.svg";
 import seleksi from "./icon/seleksi.svg";
 import pengumuman from "./icon/pengumuman.svg";
+import twitterOutline from "./icon/twitter-outline.svg";
+import instagramOutline from "./icon/instagram-outline.svg";
+import facebookOutline from "./icon/facebook-outline.svg";
 
 // ** Import Brand
 import fiveHundred from "./brand/500.svg";
@@ -58,4 +63,8 @@ export default {
   post4,
   post5,
   post6,
+  logo2,
+  twitterOutline,
+  facebookOutline,
+  instagramOutline,
 };
