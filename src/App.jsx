@@ -1,5 +1,22 @@
+// ** Import Package
+import { Route, Routes } from "react-router-dom";
+
+// ** Import Components
+import Navbar from "./components/Navbar";
+
+// ** Import Pages
+import Home from "./pages/Home";
+
 const App = () => {
-  return <div className="text-2xl">App</div>;
+  return (
+    <main>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </main>
+  );
 };
 
 export default App;
