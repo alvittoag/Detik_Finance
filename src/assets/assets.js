@@ -24,6 +24,14 @@ import wafe from "./brand/wave.svg";
 import gfc from "./brand/gfc.svg";
 import golden from "./brand/golden.svg";
 
+// ** Import Blog
+import post1 from "./blog/post1.svg";
+import post2 from "./blog/post2.svg";
+import post3 from "./blog/post3.svg";
+import post4 from "./blog/post4.svg";
+import post5 from "./blog/post5.svg";
+import post6 from "./blog/post6.svg";
+
 export default {
   logo,
   backgroundLarge,
@@ -44,4 +52,10 @@ export default {
   wafe,
   gfc,
   golden,
+  post1,
+  post2,
+  post3,
+  post4,
+  post5,
+  post6,
 };

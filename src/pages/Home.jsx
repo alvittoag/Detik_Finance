@@ -2,19 +2,24 @@
 import About from "../components/About";
 import Brand from "../components/Brand";
 import Hero from "../components/Hero";
+import LatestUpdate from "../components/LatestUpdate";
 import Mechanism from "../components/Mechanism";
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Hero />
 
       <About />
 
       <Mechanism />
 
-      <Brand />
-    </div>
+      <div className="bg-secondary">
+        <Brand />
+
+        <LatestUpdate />
+      </div>
+    </main>
   );
 };
 

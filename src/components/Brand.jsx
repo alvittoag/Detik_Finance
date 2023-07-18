@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 
 const Brand = () => {
   return (
-    <div className="py-24 bg-secondary space-y-12">
+    <main className="py-24  space-y-12">
       <h5 className="text-primary max-w-xl font-[700] text-[18px] mx-auto text-center">
         Dapatkan Kesempatan Dilirik oleh Venture Capital / Angel Investor Serta
         Menjadi Narasumber di Detikfinance
@@ -32,7 +32,7 @@ const Brand = () => {
       <Link to="/register" className="flex justify-center">
         <Button className="mx-auto">Daftarkan startup Kamu</Button>
       </Link>
-    </div>
+    </main>
   );
 };
 

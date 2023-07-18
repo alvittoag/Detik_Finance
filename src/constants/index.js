@@ -50,3 +50,35 @@ export const sliderImages = [
   { image: assets.gfc, name: "gfc" },
   { image: assets.golden, name: "golden" },
 ];
+
+export const postItems = [
+  {
+    image: assets.post1,
+    title:
+      "Alpha JWC Ventures Suntikkan Dana Segar kepada OnlinePajak dan Stoqo",
+  },
+  {
+    image: assets.post2,
+    title:
+      "Startup Lifepack Rampungkan Pendanaan Seri A yang Dipimpin Golden Gate Ventures",
+  },
+  {
+    image: assets.post3,
+    title:
+      "Angel Investor Adalah? Berikut Jenis, Contoh dan Cara Mendapatkannya",
+  },
+  {
+    image: assets.post4,
+    title:
+      "Crowe Indonesia Gelar Diskusi terkait Valuasi Startup & Laporan ESG",
+  },
+  {
+    image: assets.post5,
+    title: "Startup Fresh Factory Bangun Ratusan Gudang Dingin di 103 Kota",
+  },
+
+  {
+    image: assets.post6,
+    title: "Startup Pertanian RI Dapat Pendanaan Awal, Totalnya Rp 90 M",
+  },
+];

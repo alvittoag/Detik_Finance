@@ -6,14 +6,14 @@ import { mechanismItems } from "../constants";
 
 const Mechanism = () => {
   return (
-    <div id="mechanism" className="relative">
+    <main id="mechanism" className="relative">
       <img
         src={assets.backgroundMechanism}
         alt="mechanism"
         className="w-full"
       />
 
-      <div className="absolute top-0 bottom-0 left-0 right-0 w-[751px] mx-auto py-32 space-y-8">
+      <article className="absolute top-0 bottom-0 left-0 right-0 w-[751px] mx-auto py-32 space-y-8">
         <h1 className="text-[48px] font-[700] text-white">Mekanisme</h1>
 
         <div className="space-y-6">
@@ -58,8 +58,8 @@ const Mechanism = () => {
             </div>
           ))}
         </div>
-      </div>
-    </div>
+      </article>
+    </main>
   );
 };
 

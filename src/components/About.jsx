@@ -3,7 +3,7 @@ import assets from "../assets/assets";
 
 const About = () => {
   return (
-    <div
+    <main
       id="about"
       className="py-28 px-40 flex items-center gap-10 bg-secondary"
     >
@@ -17,7 +17,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="space-y-4">
+      <article className="space-y-4">
         <h1 className="text-primary font-[700] text-[20px]">
           About Detikfinance Business Plan Competition 2023
         </h1>
@@ -40,8 +40,8 @@ const About = () => {
             <img src={assets.facebook} alt="facebook" />
           </div>
         </div>
-      </div>
-    </div>
+      </article>
+    </main>
   );
 };
 

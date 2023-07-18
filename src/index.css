@@ -13,3 +13,7 @@
 .text-primary {
   @apply text-[#007CBD];
 }
+
+.text-secondary {
+  @apply text-[#1B1E28];
+}
