@@ -14,9 +14,21 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-6">
-            <img src={assets.twitterOutline} alt="twitter" />
-            <img src={assets.instagramOutline} alt="instagram" />
-            <img src={assets.facebookOutline} alt="facebook" />
+            <img
+              src={assets.twitterOutline}
+              alt="twitter"
+              className="cursor-pointer"
+            />
+            <img
+              src={assets.instagramOutline}
+              alt="instagram"
+              className="cursor-pointer"
+            />
+            <img
+              src={assets.facebookOutline}
+              alt="facebook"
+              className="cursor-pointer"
+            />
           </div>
         </div>
 

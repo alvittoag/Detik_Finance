@@ -11,7 +11,7 @@ const About = () => {
         <img src={assets.about} alt="about" />
 
         <div className=" p-5 absolute left-0 bottom-0 top-0 right-0 flex items-center">
-          <div className="bg-[#D6D6D6B5] py-[15px] px-4 mx-auto rounded-full">
+          <div className="bg-[#D6D6D6B5] cursor-pointer py-[15px] px-4 mx-auto rounded-full">
             <img src={assets.play} alt="play" />
           </div>
         </div>
@@ -32,9 +32,9 @@ const About = () => {
         </p>
 
         <div className="flex gap-3 items-center">
-          <p className="font-400 text-primary">Share</p>
+          <p className="font-400 text-primary cursor-pointer">Share</p>
 
-          <div className="flex gap-2">
+          <div className="flex gap-2 cursor-pointer">
             <img src={assets.twitter} alt="twitter" />
             <img src={assets.whatsapp} alt="whatsapp" />
             <img src={assets.facebook} alt="facebook" />
