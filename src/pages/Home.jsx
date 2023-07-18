@@ -14,11 +14,9 @@ const Home = () => {
 
       <Mechanism />
 
-      <div className="bg-secondary">
-        <Brand />
+      <Brand />
 
-        <LatestUpdate />
-      </div>
+      <LatestUpdate />
     </main>
   );
 };

@@ -17,3 +17,7 @@
 .text-secondary {
   @apply text-[#1B1E28];
 }
+
+body {
+  @apply bg-[#F4FBFF];
+}
