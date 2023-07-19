@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <main className="bg-hero">
+    <main id="hero" className="bg-hero">
       <div className="flex flex-col justify-center px-8  sm:text-center sm:flex sm:flex-col sm:items-center  md:px-0 md:flex md:flex-col md:items-center md:justify-center h-full text-white  md:text-center space-y-7">
         <article className="space-y-3">
           <h5 className="text-[18px] md:text-[24px] font-semibold">

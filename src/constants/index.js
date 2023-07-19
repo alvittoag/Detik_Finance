@@ -1,9 +1,9 @@
 import assets from "../assets/assets";
 
 export const sideItems = [
-  { name: "About", scrollTo: "#about" },
-  { name: "Mechanism", scrollTo: "#mechanism" },
-  { name: "Latest Update", scrollTo: "#latest-update" },
+  { name: "About", scrollTo: "about" },
+  { name: "Mechanism", scrollTo: "mechanism" },
+  { name: "Latest Update", scrollTo: "latest-update" },
 ];
 
 export const mechanismItems = [
