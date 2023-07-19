@@ -5,7 +5,7 @@ const About = () => {
   return (
     <main
       id="about"
-      className="py-28 px-40 flex items-center gap-10 bg-secondary"
+      className="pb-24 pt-5 px-5 space-y-5 md:space-y-0 md:py-28 md:px-40 md:flex md:items-center md:gap-10 bg-secondary"
     >
       <div className="relative">
         <img src={assets.about} alt="about" />
