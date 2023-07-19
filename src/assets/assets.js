@@ -8,6 +8,7 @@ import backgroundSmall from "./background/background-sm.svg";
 import backgroundMechanism from "./background/background-mechanism.svg";
 import about from "./background/about.svg";
 import backgroundRegister from "./background/background-register.svg";
+import backgroundMechanismSmall from "./background/backround-mechanism-sm.svg";
 
 // ** Import Icon
 import twitter from "./icon/twitter.svg";
@@ -73,4 +74,5 @@ export default {
   backgroundRegister,
   plus,
   backgroundSmall,
+  backgroundMechanismSmall,
 };

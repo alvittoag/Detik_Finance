@@ -6,26 +6,20 @@ import { mechanismItems } from "../constants";
 
 const Mechanism = () => {
   return (
-    <main id="mechanism" className="relative">
-      <img
-        src={assets.backgroundMechanism}
-        alt="mechanism"
-        className="w-full"
-      />
-
-      <article className="absolute top-0 bottom-0 left-0 right-0 w-[751px] mx-auto py-32 space-y-8">
+    <main id="mechanism" className="bg-mechanism">
+      <article className="py-10 px-5 space-y-5 md:w-[751px] md:mx-auto md:py-32 md:px-0 md:space-y-8">
         <h1 className="text-[48px] font-[700] text-white">Mekanisme</h1>
 
         <div className="space-y-6">
           {mechanismItems.map((item, i) => (
             <div
               key={i}
-              className="bg-white p-[30px] rounded-[10px] flex gap-7 items-start"
+              className="bg-white p-[30px] rounded-[10px] space-y-6 md:space-y-0 md:flex md:gap-7 md:items-start"
             >
               <img src={item.icon} alt={item.title} />
 
               <div className="w-full space-y-2">
-                <div className="flex justify-between">
+                <div className="space-y-2 md:flex md:justify-between">
                   <h1 className="text-primary font-[700] text-[18px]">
                     {item.title}
                   </h1>
