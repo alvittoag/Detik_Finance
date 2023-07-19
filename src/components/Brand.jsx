@@ -21,10 +21,26 @@ const Brand = () => {
     speed: 2000,
     autoplaySpeed: 0,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <main className="py-24 space-y-12">
-      <h5 className="text-primary max-w-xl font-[700] text-[18px] mx-auto text-center">
+      <h5 className="px-5 md:px-0 text-primary max-w-xl font-[700] text-[18px] mx-auto text-center">
         Dapatkan Kesempatan Dilirik oleh Venture Capital / Angel Investor Serta
         Menjadi Narasumber di Detikfinance
       </h5>
