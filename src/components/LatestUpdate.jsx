@@ -12,10 +12,15 @@ const LatestUpdate = () => {
   const handleMouseLeave = () => setHoveredItem(null);
 
   return (
-    <main id="latest-update" className="py-10 px-36 space-y-8">
-      <h1 className="text-primary font-[700]  text-[32px]">LATEST UPDATE </h1>
+    <main
+      id="latest-update"
+      className="px-12 py-16 md:py-10 md:px-36 space-y-8"
+    >
+      <h1 className="text-primary text-center md:text-justify font-[700] text-[32px]">
+        LATEST UPDATE{" "}
+      </h1>
 
-      <article className="grid grid-cols-3 gap-7">
+      <article className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-7">
         {postItems.map((item, index) => (
           <div
             key={index}
