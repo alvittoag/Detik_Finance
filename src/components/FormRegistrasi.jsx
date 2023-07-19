@@ -27,7 +27,6 @@ const FormRegistrasi = () => {
     input.telephone === "" ||
     input.description === "" ||
     !input.image ||
-    !input.file ||
     input.website === "" ||
     !input.agrement;
 
@@ -71,7 +70,7 @@ const FormRegistrasi = () => {
   };
 
   return (
-    <div className=" absolute top-[17rem] left-0 right-0  mx-auto w-[700px] h-[990px] bg-white p-8  rounded-3xl space-y-5">
+    <div className="sm:absolute sm:top-[17rem] sm:left-0 sm:right-0 sm:mx-auto sm:w-[650px] lg:w-[700px] sm:h-[990px] bg-white p-8 sm:rounded-3xl space-y-5">
       {/* Input Nama Perusahaan */}
       <Input
         type="text"
@@ -126,8 +125,8 @@ const FormRegistrasi = () => {
       </div>
 
       {/* Input Gambar */}
-      <div className="relative flex items-center gap-10">
-        <div className=" w-[200px] h-[200px] relative bg-[#F8F8F8] rounded-lg">
+      <div className="relative space-y-5 sm:space-y-0 sm:flex sm:items-center sm:gap-10">
+        <div className=" sm:w-[200px] h-[200px] relative bg-[#F8F8F8] rounded-lg">
           <input
             type="file"
             onChange={handleInput}
@@ -160,20 +159,18 @@ const FormRegistrasi = () => {
           )}
         </div>
 
-        <div>
-          <ol className="list-decimal font-[400]  text-black">
-            <li>Format file: .png, .jpg, .jpeg</li>
-            <li>Maksimal ukuran file 200kb</li>
-            <li>Hindari penggunaan logo berwarna putih</li>
-            <li>Minimal lebar 300px</li>
-          </ol>
-        </div>
+        <ol className=" px-5 sm:px-0 list-decimal font-[400] text-black">
+          <li>Format file: .png, .jpg, .jpeg</li>
+          <li>Maksimal ukuran file 200kb</li>
+          <li>Hindari penggunaan logo berwarna putih</li>
+          <li>Minimal lebar 300px</li>
+        </ol>
       </div>
 
       {/* Input Berkas */}
       <div className="space-y-2">
-        <div className="bg-[#F8F8F8] relative py-[14px] px-5  rounded-lg">
-          <label htmlFor="file">
+        <div className="bg-[#F8F8F8] relative py-[14px] sm:px-5 rounded-lg">
+          <label htmlFor="file" className="px-5 sm:px-0">
             {input.file
               ? `${input.file.name.substring(0, 50)}...`
               : "Profil Perusahaan atau Deck (opsional)"}
@@ -184,10 +181,10 @@ const FormRegistrasi = () => {
             type="file"
             onChange={handleInput}
             accept="application/pdf"
-            className="absolute  top-0 bottom-0 right-0 opacity-0 z-50 cursor-pointer"
+            className="absolute top-3 sm:top-0 bottom-0 right-0 opacity-0 z-50 cursor-pointer"
           />
 
-          <button className="bg-primary text-white px-14 absolute right-0 top-0 bottom-0 rounded-lg font-semibold">
+          <button className="bg-primary text-white px-14 hidden sm:block sm:absolute sm:right-0 sm:top-0 sm:bottom-0 rounded-lg font-semibold">
             Upload File
           </button>
         </div>
@@ -218,7 +215,7 @@ const FormRegistrasi = () => {
         <input
           onChange={(e) => setInput({ ...input, agrement: e.target.checked })}
           type="checkbox"
-          className={`w-[14px] h-[14px] rounded-sm  ${
+          className={`w-8 h-4 sm:w-[14px] sm:h-[14px] rounded-sm  ${
             input.agrement
               ? " accent-[#C4C4C4] "
               : "appearance-none bg-[#C4C4C4]"

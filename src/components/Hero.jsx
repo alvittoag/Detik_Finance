@@ -1,6 +1,9 @@
 // ** Import Elements
 import Button from "../elements/Button";
 
+// ** Import Library
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <main className="bg-hero">
@@ -22,7 +25,9 @@ const Hero = () => {
         </article>
 
         <div className="w-[221px] md:w-full">
-          <Button> Daftarkan startup kamu</Button>
+          <Link to="/register">
+            <Button> Daftarkan startup kamu</Button>
+          </Link>
         </div>
       </div>
     </main>

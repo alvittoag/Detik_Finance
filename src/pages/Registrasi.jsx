@@ -4,7 +4,7 @@ import HeroRegister from "../components/HeroRegister";
 
 const Registrasi = () => {
   return (
-    <div className="relative mt-10 mb-[57rem]">
+    <div className="relative sm:mt-10 sm:mb-[57rem]">
       <HeroRegister />
 
       <FormRegistrasi />

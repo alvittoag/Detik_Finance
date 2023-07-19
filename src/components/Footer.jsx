@@ -2,7 +2,7 @@ import assets from "../assets/assets";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary mt-3 text-white px-5 py-14 md:px-11 md:py-8 space-y-8">
+    <footer className="bg-primary sm:mt-3 text-white px-5 py-14 md:px-11 md:py-8 space-y-8">
       <img src={assets.logo2} alt="logo" />
 
       <div className="space-y-6">
