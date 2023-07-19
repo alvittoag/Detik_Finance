@@ -2,11 +2,11 @@ import assets from "../assets/assets";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary mt-3 text-white px-11 py-8 space-y-8">
+    <footer className="bg-primary mt-3 text-white px-5 py-14 md:px-11 md:py-8 space-y-8">
       <img src={assets.logo2} alt="logo" />
 
       <div className="space-y-6">
-        <div className="flex justify-between">
+        <div className="space-y-4 md:space-y-0 md:flex md:justify-between">
           <p className="max-w-3xl">
             Detikfinance memberikan ruang kepada para startup di Indonesia untuk
             menunjukkan, serta mempromosikan brand mereka untuk mendapatkan
