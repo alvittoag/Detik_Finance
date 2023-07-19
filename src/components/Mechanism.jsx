@@ -1,25 +1,22 @@
-// ** Import Assets
-import assets from "../assets/assets";
-
 // ** Import Constants
 import { mechanismItems } from "../constants";
 
 const Mechanism = () => {
   return (
     <main id="mechanism" className="bg-mechanism">
-      <article className="py-10 px-5 space-y-5 md:w-[751px] md:mx-auto md:py-32 md:px-0 md:space-y-8">
+      <article className="py-10 px-5 space-y-5 sm:py-7 sm:px-20 md:py-14 lg:w-[751px] lg:mx-auto lg:py-32 lg:px-0 lg:space-y-8">
         <h1 className="text-[48px] font-[700] text-white">Mekanisme</h1>
 
         <div className="space-y-6">
           {mechanismItems.map((item, i) => (
             <div
               key={i}
-              className="bg-white p-[30px] rounded-[10px] space-y-6 md:space-y-0 md:flex md:gap-7 md:items-start"
+              className="bg-white p-[30px] rounded-[10px] space-y-6 md:space-y-0 sm:flex sm:gap-7 sm:items-start"
             >
               <img src={item.icon} alt={item.title} />
 
-              <div className="w-full space-y-2">
-                <div className="space-y-2 md:flex md:justify-between">
+              <div className="w-full space-y-2 ">
+                <div className="space-y-2 sm:space-y-0 sm:flex sm:justify-between">
                   <h1 className="text-primary font-[700] text-[18px]">
                     {item.title}
                   </h1>

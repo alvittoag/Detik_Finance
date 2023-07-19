@@ -14,7 +14,7 @@ const LatestUpdate = () => {
   return (
     <main
       id="latest-update"
-      className="px-12 py-16 md:py-10 md:px-36 space-y-8"
+      className="px-12 py-16 lg:py-10 lg:px-36 space-y-8"
     >
       <h1 className="text-primary text-center md:text-justify font-[700] text-[32px]">
         LATEST UPDATE{" "}
