@@ -4,6 +4,7 @@ import logo2 from "./logo/logo2.svg";
 
 // ** Import Background
 import backgroundLarge from "./background/background-lg.svg";
+import backgroundSmall from "./background/background-sm.svg";
 import backgroundMechanism from "./background/background-mechanism.svg";
 import about from "./background/about.svg";
 import backgroundRegister from "./background/background-register.svg";
@@ -71,4 +72,5 @@ export default {
   instagramOutline,
   backgroundRegister,
   plus,
+  backgroundSmall,
 };

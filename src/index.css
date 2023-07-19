@@ -21,3 +21,28 @@
 body {
   @apply bg-[#F4FBFF];
 }
+
+@media (max-width: 599px) {
+  .bg-hero {
+    background-image: url("/src/assets/background/background-sm.svg");
+    background-size: contain;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-hero {
+    background-image: url("/src/assets/background/background-lg.svg");
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 1100px;
+    margin-top: -28px;
+    background-repeat: no-repeat;
+  }
+}
+
+.bg-sm {
+}
